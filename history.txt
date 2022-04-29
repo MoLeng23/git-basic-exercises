@@ -1,0 +1,25 @@
+    1  mkdir
+    2  mkdir git-basic-exercises
+    3  cd git-basic-exercises
+    4  git init
+    5  touch README.md
+    6  git add -A
+    7  git commit -m "initial commit"
+    8  git config --global user.email "mohlouoa23ntaoleng@gmail.com"
+    9  git config --globaluser.name "Ntaoleng Mohlouoa"
+   10  git config --global user.name "Ntaoleng Mohlouoa"
+   11  git commit -m "initial commit" 
+   12  nano README.md
+   13  gitcommit -a
+   14  git commit -a
+   15  nano README.md
+   16  git commit -a
+   17  git branch milkshake-flavours
+   18  git checkout milkshake-flavours
+   19  nano milkshake-flavours
+   20  git add -A
+   21  git commit -m "added initial lavours"
+   22  git checkout master
+   23  git branch history
+   24  git checkout history
+   25  history > history.txt
